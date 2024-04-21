@@ -1,0 +1,101 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 25,
+    "spacing": 2,
+
+
+    "modules-left": [
+        "hyprland/workspaces",
+    ],
+    "modules-center": [
+        "custom/username"
+    ],
+    "modules-right": [
+        "network",
+        "battery",
+        "pulseaudio",
+        "clock#2",
+        "clock"
+    ],
+
+
+    // Workspaces module (only for hyprland)
+    "hyprland/workspaces": {
+         "disable-scroll": true,
+         "all-outputs": true,
+         "warp-on-scroll": false,
+         "sort-by-number": true,
+         "format": "{icon}",
+         "format-icons": {
+           "active": "&#62;",
+           "default": "~",
+           "urgent": "!"
+       }
+    },
+
+
+    // Clock module
+    "clock": {
+        "interval": 1,
+        "format": "{:%I:%M %p}",
+        "tooltip-format": "{:%Hh %Mmin %Ssec}",
+        "format-alt": "{:%H:%M:%S %p}"
+    },
+
+    
+    "clock#2": {
+      "format": "{:%a %d %b}",
+      "format-alt": "{:%A %d %B}",
+      "format-tooltip": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    },
+
+
+    // Battery module
+    "battery": {
+        "states": {
+            "critical": 15
+        },
+        "format": "{icon}  {capacity}%",
+        "format-charging": "  {capacity}%",
+        "format-full": "{icon}  {capacity}%",
+        "format-time": "{H}h{m}",
+        "format-alt": "{icon}  {time}",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+
+    // Network module
+    "network": {
+        "format": "",
+        "format-disconnected": "",
+        "format-wifi": "",
+        "format-ethernet": "󱎔",
+        "tooltip-format": "{ifname} -> {gwaddr}",
+        "format-linked": "󱎔 (No IP)",
+        "format-alt": " SSID: {essid} ({signalStrength}%)"
+    },
+
+
+    // Audio module
+    "pulseaudio": {
+        "states": {
+          "critical": 150,
+          "normal": 100
+        },
+        "max-volume": 150,
+        "format": "{icon} {volume}%",
+        "format-muted": "󰝟 {volume}%",
+        "format-icons": {
+            "headphone": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+
+
+    // Module to display the current user's name
+    "custom/username": {
+      "exec": "whoami"
+    }
+}
