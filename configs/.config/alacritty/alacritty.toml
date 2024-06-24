@@ -18,9 +18,19 @@ family = "JetBrainsMono Nerd Font"
 style = "Regular"
 
 [window]
-opacity = 0.3
+opacity = 0.6
 blur = true
-padding = {x=10, y=10}
+padding = {x=16, y=16}
 
 [colors.primary]
-background = "#474747"
+background = "#404040"
+
+[colors.normal]
+black   = '#333333'
+red     = '#FFB7A8'
+green   = '#B9FFA8'
+yellow  = '#FFF2D1'
+blue    = '#D1D6FF'
+magenta = '#FFD1EA'
+cyan    = '#D1FFF9'
+white   = '#DEDEDE'
