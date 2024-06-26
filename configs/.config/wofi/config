@@ -1,0 +1,14 @@
+hide_scroll=false
+show=drun
+width=20%
+lines=20
+line_wrap=word
+term=alacritty
+allow_markup=true
+show_all=true
+sort_order=alphabetical
+gtk_dark=true
+prompt=
+location=right
+key_expand=Tab
+insensitive=true
