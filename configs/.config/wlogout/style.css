@@ -1,0 +1,79 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background-color: rgba(64, 64, 64, 0.6);
+}
+
+button {
+	font-family: 'JetBrainsMono Nerd Font', monospace;
+	font-weight: 100;
+	margin: 10px;
+    border-radius: 0;
+    border-color: #404040;
+	text-decoration-color: #DEDEDE;
+    color: #DEDEDE;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	border: 2px solid #DEDEDE;
+}
+
+button:focus, button:active, button:hover {
+	font-weight: 300;
+	color: #404040;
+	background-color: #DEDEDE;
+	outline-style: none;
+}
+
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"));
+}
+
+
+#lock:focus, #lock:hover, #lock:active {
+    background-image: image(url("/usr/share/wlogout/icons/lock-dark.png"));
+}
+
+#logout:focus, #logout:hover, #logout:active {
+    background-image: image(url("/usr/share/wlogout/icons/logout-dark.png"));
+}
+
+#suspend:focus, #suspend:hover, #suspend:active {
+    background-image: image(url("/usr/share/wlogout/icons/suspend-dark.png"));
+}
+
+#hibernate:focus, #hibernate:hover, #hibernate:active {
+    background-image: image(url("/usr/share/wlogout/icons/hibernate-dark.png"));
+}
+
+#shutdown:focus, #shutdown:hover, #shutdown:active {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown-dark.png"));
+}
+
+#reboot:focus, #reboot:hover, #reboot:active {
+    background-image: image(url("/usr/share/wlogout/icons/reboot-dark.png"));
+}
