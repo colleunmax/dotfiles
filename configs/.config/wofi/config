@@ -1,6 +1,6 @@
 hide_scroll=false
 show=drun
-width=20%
+width=30%
 lines=20
 line_wrap=word
 term=alacritty
