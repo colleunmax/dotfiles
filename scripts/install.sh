@@ -15,6 +15,9 @@ sudo dnf update
 # node/pnpm
 sudo dnf install -y nodejs pnpm
 
+# rust
+sudo dnf install -y cargo
+
 # hyprland
 sudo dnf install -y hyprland hyprlock
 
