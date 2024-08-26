@@ -15,7 +15,7 @@ sudo dnf update
 # node/pnpm
 sudo dnf install -y nodejs pnpm
 
-hyprland
+# hyprland
 sudo dnf install -y hyprland hyprlock
 
 # toolbar
