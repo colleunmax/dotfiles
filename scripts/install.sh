@@ -19,11 +19,11 @@ hyprland
 sudo dnf install -y hyprland hyprlock
 
 # toolbar
-sudo dnf install waybar
+sudo dnf install -y waybar
 sudo ln -s $/../configs/.config/waybar ~/.config/waybar
 
 # Terminal
-sudo dnf install alacritty
+sudo dnf install -y alacritty
 sudo ln -s $DIR/../configs/.config/alacritty ~/.config/alacritty
 
 # zsh
@@ -38,7 +38,7 @@ sudo dnf install fastfetch
 sudo ln -s $DIR/../configs/.config/fastfetch ~/.config/fastfetch
 
 # wallpaper
-sudo dnf install lz4 lz4-devel
+sudo dnf install -y lz4 lz4-devel
 if ! [[ -d ~/Repos ]]; then
   mkdir ~/Repos
 fi
