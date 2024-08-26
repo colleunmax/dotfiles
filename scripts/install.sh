@@ -34,7 +34,7 @@ sudo ln -s $DIR/../configs/.zshrc ~/.zshrc
 sudo ln -s $DIR/../configs/.zprofile ~/.zprofile
 
 # neofetch
-sudo dnf install fastfetch
+sudo dnf install -y fastfetch
 sudo ln -s $DIR/../configs/.config/fastfetch ~/.config/fastfetch
 
 # wallpaper
