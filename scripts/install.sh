@@ -46,6 +46,8 @@ if ! [[ -d ~/Repos ]]; then
   mkdir ~/Repos
 fi
 git clone https://github.com/LGFae/swww.git ~/Repos/swww
-cargo build --release ~/Repos/swww
+cd ~/Repos/swww
+cargo build --release
+cd $DIR
 sudo cp ~/Repos/swww/target/release/swww /usr/bin/swww
 sudo cp ~/Repos/swww/target/release/swww-daemon /usr/bin/swww-daemon
