@@ -20,11 +20,11 @@ sudo dnf install -y cargo
 
 # hyprland
 sudo dnf install -y hyprland hyprlock
-sudo ln -s $/../configs/.config/hypr ~/.config/hypr
+sudo ln -s $DIR/../configs/.config/hypr ~/.config/hypr
 
 # toolbar
 sudo dnf install -y waybar
-sudo ln -s $/../configs/.config/waybar ~/.config/waybar
+sudo ln -s $DIR/../configs/.config/waybar ~/.config/waybar
 
 # Terminal
 sudo dnf install -y alacritty
