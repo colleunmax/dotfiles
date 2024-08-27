@@ -52,6 +52,6 @@ cargo build --release
 cd $DIR
 sudo cp ~/Repos/swww/target/release/swww /usr/bin/swww
 sudo cp ~/Repos/swww/target/release/swww-daemon /usr/bin/swww-daemon
-sudo ln -s $DIR/wallpaper-switch.sh /usr/bin/wallpaper-switch.sh
+sudo ln -s $DIR/wallpaper-switch.sh /usr/bin/wallpaper-switch
 wallpapers=$(ls "$DIR/../wallpapers")
 echo ${wallpapers[0]} >> $DIR/../scripts/wallpaper.cache.txt
