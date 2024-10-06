@@ -5,7 +5,7 @@
     },
     "logo": {
         "color": {"1": "blue"},
-        "source": "/home/joulian/Repos/dotfiles/configs/.config/fastfetch/logo.txt",
+        "source": "~/Repos/dotfiles/configs/.config/fastfetch/logo.txt",
         "padding": {
             "top": 2,
             "left": 2
