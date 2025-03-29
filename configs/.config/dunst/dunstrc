@@ -1,0 +1,77 @@
+[global]
+    class = Dunst
+    sort = true
+    idle_threshold = 30
+    markup = full
+    format = "%s\n%b"
+    alignment = left
+    word_wrap = yes
+    ellipsize = end
+    ignore_newline = no
+    stack_duplicates = no
+    show_indicators = yes
+    enable_recursive_icon_lookup = true
+    sticky_history = true
+    history_length = 99
+    ignore_dbusclose = false
+    browser = firefox
+
+    width = 350
+    height = (80, 220)
+    origin = top-right
+    offset = (40, 40)
+    corner_radius = 10
+    transparency = 100
+    padding = 16
+    horizontal_padding = 16
+    text_icon_padding = 16
+    frame_width = 2
+
+    line_height = 0
+    font = Poppins 12
+
+    follow = mouse
+
+    notification_limit = 12
+
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 320
+    progress_bar_max_width = 320
+    progress_bar_corner_radius = 5
+
+    min_icon_size = 50 
+    max_icon_size = 50
+    icon_position = right
+    icon_corner_radius = 10
+    text_icon_padding = 16
+
+    indicate_hidden = yes
+    force_xwayland = false
+
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+[experimental]
+    per_monitor_dpi = false
+
+[urgency_low]
+    background = "#55555599"
+    foreground = "#ffffff"
+    frame_color = "#6DDFFF"
+    timeout = 10 
+
+[urgency_normal]
+    background = "#55555599"
+    foreground = "#FFFFFF"
+    frame_color = "#0000000f"
+    highlight = "#6DDFFF"
+    timeout = 30
+
+[urgency_critical]
+    background = "#55555599"
+    foreground = "#ffffff"
+    frame_color = "#FF6C6C"
+    timeout = 0
