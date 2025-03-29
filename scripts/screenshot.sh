@@ -1,0 +1,5 @@
+#!/bin/dash
+
+XDG_CURRENT_DESKTOP=Sway
+flameshot gui
+XDG_CURRENT_DESKTOP=Hyprland
