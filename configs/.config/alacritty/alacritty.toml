@@ -23,7 +23,7 @@ blur = true
 padding = {x=16, y=16}
 
 [colors.primary]
-background = "#404040"
+background = "#475053"
 
 [colors.normal]
 black   = '#333333'
