@@ -1,3 +1,4 @@
+#!bin/dash
 # .zshrc
 autoload -U promptinit; promptinit
 
@@ -21,5 +22,5 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Welcome banner
 alias la="ls -la"
 echo "======================================================================="
-echo "                          Welcome Home, $(whoami) "
+echo "                         Welcome Home, $(whoami)"
 echo "======================================================================="
