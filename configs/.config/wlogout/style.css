@@ -30,50 +30,50 @@ button:focus, button:active, button:hover {
 }
 
 #lock {
-    background-image: image(url("/usr/share/wlogout/icons/lock.png"));
+    background-image: image(url("/usr/share/wlogout/icons/lock.svg"));
 }
 
 #logout {
-    background-image: image(url("/usr/share/wlogout/icons/logout.png"));
+    background-image: image(url("/usr/share/wlogout/icons/logout.svg"));
 }
 
 #suspend {
-    background-image: image(url("/usr/share/wlogout/icons/suspend.png"));
+    background-image: image(url("/usr/share/wlogout/icons/suspend.svg"));
 }
 
 #hibernate {
-    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"));
+    background-image: image(url("/usr/share/wlogout/icons/hibernate.svg"));
 }
 
 #shutdown {
-    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"));
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.svg"));
 }
 
 #reboot {
-    background-image: image(url("/usr/share/wlogout/icons/reboot.png"));
+    background-image: image(url("/usr/share/wlogout/icons/reboot.svg"));
 }
 
 
 #lock:focus, #lock:hover, #lock:active {
-    background-image: image(url("/usr/share/wlogout/icons/lock-dark.png"));
+    background-image: image(url("/usr/share/wlogout/icons/lock-dark.svg"));
 }
 
 #logout:focus, #logout:hover, #logout:active {
-    background-image: image(url("/usr/share/wlogout/icons/logout-dark.png"));
+    background-image: image(url("/usr/share/wlogout/icons/logout-dark.svg"));
 }
 
 #suspend:focus, #suspend:hover, #suspend:active {
-    background-image: image(url("/usr/share/wlogout/icons/suspend-dark.png"));
+    background-image: image(url("/usr/share/wlogout/icons/suspend-dark.svg"));
 }
 
 #hibernate:focus, #hibernate:hover, #hibernate:active {
-    background-image: image(url("/usr/share/wlogout/icons/hibernate-dark.png"));
+    background-image: image(url("/usr/share/wlogout/icons/hibernate-dark.svg"));
 }
 
 #shutdown:focus, #shutdown:hover, #shutdown:active {
-    background-image: image(url("/usr/share/wlogout/icons/shutdown-dark.png"));
+    background-image: image(url("/usr/share/wlogout/icons/shutdown-dark.svg"));
 }
 
 #reboot:focus, #reboot:hover, #reboot:active {
-    background-image: image(url("/usr/share/wlogout/icons/reboot-dark.png"));
+    background-image: image(url("/usr/share/wlogout/icons/reboot-dark.svg"));
 }
