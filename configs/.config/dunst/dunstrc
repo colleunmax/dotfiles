@@ -28,7 +28,7 @@
     frame_width = 2
 
     line_height = 0
-    font = Poppins 12
+    font = Poppins 10
 
     follow = mouse
 
