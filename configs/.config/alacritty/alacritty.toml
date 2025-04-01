@@ -2,35 +2,36 @@
 size = 12.0
 
 [font.bold]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka NFM"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka NFM"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka NFM"
 style = "Italic"
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka NFM"
 style = "Regular"
 
 [window]
-opacity = 0.6
+opacity = 0.8
 blur = true
-padding = {x=16, y=16}
+padding = {x=24, y=24}
+dynamic_padding = true
 
 [colors.primary]
-background = "#475053"
+background = "#354652"
 
 [colors.normal]
-black   = '#333333'
-red     = '#FFB7A8'
-green   = '#B9FFA8'
-yellow  = '#FFF2D1'
-blue    = '#D1D6FF'
-magenta = '#FFD1EA'
+black   = '#100F10'
+red     = '#FF7698'
+green   = '#9EFFAA'
+yellow  = '#FFD153'
+blue    = '#9AA5ED'
+magenta = '#E373FF'
 cyan    = '#D1FFF9'
-white   = '#DEDEDE'
+white   = '#FDEFF6'
