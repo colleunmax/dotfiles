@@ -1,1 +1,1 @@
-dnf install -y cbonsai cmatrix fastfetch sl
+dnf install -y cbonsai cmatrix sl
