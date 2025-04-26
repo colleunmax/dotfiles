@@ -1,6 +1,8 @@
 #!/bin/bash
 ln -sf $DOTFILES_DIR/configs/.config/* ~/.config
+ln -sf $DOTFILES_DIR/configs/.config/.* ~/.config
 ln -sf $DOTFILES_DIR/configs/home/* ~/
+ln -sf $DOTFILES_DIR/configs/home/.* ~/
 
 # SWWW Scripts
 ln -sf $DOTFILES_DIR/scripts/swww/* /usr/bin
