@@ -13,6 +13,7 @@ function fn_main() {
     source $DOTFILES_DIR/scripts/setup/fun-stuff.sh
     source $DOTFILES_DIR/scripts/setup/management.sh
     source $DOTFILES_DIR/scripts/setup/browsers.sh
+    source $DOTFILES_DIR/scripts/setup/system-app.sh
 }
 
 

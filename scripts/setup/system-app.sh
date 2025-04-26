@@ -1,0 +1,1 @@
+dnf install -y hyprland hyprlock waybar wofi alacritty
