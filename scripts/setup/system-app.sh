@@ -1,4 +1,4 @@
-dnf install -y hyprland hyprlock waybar wofi alacritty
+dnf install -y hyprland hyprlock waybar wofi alacritty flameshot
 
 # zsh
 dnf install -y zsh zsh-autosuggestions zsh-syntax-highlighting
