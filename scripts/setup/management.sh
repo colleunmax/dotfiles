@@ -1,1 +1,1 @@
-dnf install -y htop
+dnf install -y htop fastfetch
