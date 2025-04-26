@@ -10,6 +10,7 @@ function fn_main() {
     source $DOTFILES_DIR/scripts/setup/symlink-dotfiles.sh
     source $DOTFILES_DIR/scripts/setup/git-setup.sh
     source $DOTFILES_DIR/scripts/setup/programming-tools.sh
+    source $DOTFILES_DIR/scripts/setup/fun-stuff.sh
 }
 
 
