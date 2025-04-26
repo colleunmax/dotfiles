@@ -1,23 +1,3 @@
-#!/usr/bin/env bash
-
-# get file directory
-SOURCE=${BASH_SOURCE[0]}
-while [ -L "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
-  DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
-  SOURCE=$(readlink "$SOURCE")
-  [[ $SOURCE != /* ]] && SOURCE=$DIR/$SOURCE # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
-done
-DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
-
-# update
-sudo dnf update
-
-# node/pnpm
-sudo dnf install -y nodejs pnpm
-
-# rust
-sudo dnf install -y cargo
-
 # hyprland
 sudo dnf install -y hyprland hyprlock
 sudo ln -s $DIR/../configs/.config/hypr ~/.config/hypr
@@ -25,6 +5,10 @@ sudo ln -s $DIR/../configs/.config/hypr ~/.config/hypr
 # toolbar
 sudo dnf install -y waybar
 sudo ln -s $DIR/../configs/.config/waybar ~/.config/waybar
+
+# Application finder
+sudo dnf install -y wofi
+sudo ln -s $DIR/../configs/.config/wofi ~/.config/wofi
 
 # Terminal
 sudo dnf install -y alacritty
