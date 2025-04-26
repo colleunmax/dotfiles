@@ -12,5 +12,4 @@ if gum confirm "Would you like to update your Git username and email?"; then
   done
   su -c "git config --global user.name "$GIT_USERNAME"" $SUDO_USER
   su -c "git config --global user.email "$GIT_EMAIL"" $SUDO_USER
-  exit
 fi
