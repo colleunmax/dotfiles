@@ -16,6 +16,7 @@ function fn_main() {
     source $DOTFILES_DIR/scripts/setup/system-app.sh
     source $DOTFILES_DIR/scripts/setup/flatpak-setup.sh
     source $DOTFILES_DIR/scripts/setup/vscodium.sh
+    source $DOTFILES_DIR/scripts/setup/applications.sh
 }
 
 
