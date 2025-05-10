@@ -8,9 +8,9 @@ chsh -s /usr/bin/zsh $SUDO_USER
 ln -sf $DOTFILES_DIR/images/wlogout/* /usr/share/wlogout/icons
 
 # swww
-git clone https://github.com/LGFae/swww.git ~/swww
-cd ~/swww
-su -c "cargo build --release" $SUDO_USER
+git clone https://github.com/LGFae/swww.git $DOTFILES_DIR/swww
+cd $DOTFILES_DIR/swww
+cargo build --release $SUDO_USER
 ./doc/gen.sh
 cp ~/swww/doc/generated/* /usr/local/share/man/man1
 cp ~/swww/target/release/swww /usr/bin/swww
