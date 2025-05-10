@@ -1,4 +1,4 @@
-dnf install -y hyprland waybar wofi alacritty flameshot wlogout lz4 lz4-devel scdoc
+dnf install -y hyprland hyprland-devel waybar wofi alacritty flameshot wlogout lz4 lz4-devel scdoc
 
 # zsh
 dnf install -y zsh zsh-autosuggestions zsh-syntax-highlighting
