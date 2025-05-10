@@ -12,8 +12,9 @@ git clone https://github.com/LGFae/swww.git $DOTFILES_DIR/swww
 cd $DOTFILES_DIR/swww
 cargo build --release $SUDO_USER
 ./doc/gen.sh
-cp ~/swww/doc/generated/* /usr/local/share/man/man1
-cp ~/swww/target/release/swww /usr/bin/swww
-cp ~/swww/target/release/swww-daemon /usr/bin/swww-daemon
+cp $DOTFILES_DIR/swww/doc/generated/* /usr/local/share/man/man1
+cp $DOTFILES_DIR/swww/target/release/swww /usr/bin/swww
+cp $DOTFILES_DIR/swww/target/release/swww-daemon /usr/bin/swww-daemon
+rm -fr $DOTFILES_DIR
 chmod 711 /usr/bin/swww
 chmod 711 /usr/bin/swww-daemon
