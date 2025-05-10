@@ -1,4 +1,4 @@
-dnf install -y hyprland hyprlock waybar wofi alacritty flameshot wlogout lz4 lz4-devel
+dnf install -y hyprland waybar wofi alacritty flameshot wlogout lz4 lz4-devel scdoc
 
 # zsh
 dnf install -y zsh zsh-autosuggestions zsh-syntax-highlighting
@@ -10,7 +10,7 @@ ln -sf $DOTFILES_DIR/images/wlogout/* /usr/share/wlogout/icons
 # swww
 git clone https://github.com/LGFae/swww.git ~/swww
 cd ~/swww
-cargo build --release
+su -c "cargo build --release" $SUDO_USER
 ./doc/gen.sh
 cp ~/swww/doc/generated/* /usr/local/share/man/man1
 cp ~/swww/target/release/swww /usr/bin/swww
