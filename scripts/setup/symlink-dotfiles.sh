@@ -13,5 +13,6 @@ ln -sf $DOTFILES_DIR/scripts/swww/setup_wallpaper.sh /usr/bin/setup_wallpapers
 ln -sf $DOTFILES_DIR/scripts/screenshot.sh /usr/bin/screenshot
 
 # Fonts
-mkdir -p ~/.local/share/fonts
-su -c "ln -sf $DOTFILES_DIR/fonts/* ~/.local/share/fonts" $SUDO_USER
+su -c "mkdir -p ~/.fonts" $SUDO_USER
+su -c "ln -sf $DOTFILES_DIR/fonts/* ~/.fonts" $SUDO_USER
+su -c "fc-cache -f"
