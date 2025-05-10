@@ -8,5 +8,4 @@ dnf install -y nodejs pnpm yarn
 dnf install -y python3
 
 # Rust
-su -c "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y" $SUDO_USER
-su -c "rustup update" $SUDO_USER
+dnf install rust cargo
