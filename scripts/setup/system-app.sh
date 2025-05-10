@@ -15,6 +15,5 @@ cargo build --release $SUDO_USER
 cp $DOTFILES_DIR/swww/doc/generated/* /usr/local/share/man/man1
 cp $DOTFILES_DIR/swww/target/release/swww /usr/bin/swww
 cp $DOTFILES_DIR/swww/target/release/swww-daemon /usr/bin/swww-daemon
-rm -fr $DOTFILES_DIR
 chmod 711 /usr/bin/swww
 chmod 711 /usr/bin/swww-daemon
