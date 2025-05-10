@@ -3,8 +3,6 @@
 chmod +x $DOTFILES_DIR/scripts/*
 
 su -c "ln -sf $DOTFILES_DIR/configs/.config/* ~/.config" $SUDO_USER
-su -c "ln -sf $DOTFILES_DIR/configs/.config/.* ~/.config" $SUDO_USER
-su -c "ln -sf $DOTFILES_DIR/configs/home/* ~/" $SUDO_USER
 su -c "ln -sf $DOTFILES_DIR/configs/home/.* ~/" $SUDO_USER
 
 # SWWW Scripts
