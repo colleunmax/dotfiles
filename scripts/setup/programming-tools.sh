@@ -8,4 +8,4 @@ dnf install -y nodejs pnpm yarn
 dnf install -y python3
 
 # Rust
-dnf install rust cargo
+dnf install rust cargo -y
